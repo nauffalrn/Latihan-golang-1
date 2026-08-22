@@ -1,0 +1,25 @@
+# Konfigurasi sensitif (jangan sampai password database bocor ke GitHub)
+.env
+
+# Hasil build binary Go (file .exe atau file binary aplikasi)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+dist/
+build/
+
+# Folder vendor (jika Anda menggunakan vendor local)
+vendor/
+
+# File log atau database lokal sementara
+*.log
+*.sqlite
+*.sqlite3
+
+# File sampah sistem operasi
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
